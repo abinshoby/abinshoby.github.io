@@ -936,7 +936,9 @@ html[xmlns] .slider-wrap {display: block;}
 #header {
 	position: relative;
 	background-color: #FFF;
-	/*opacity: 0.8;*/
+	
+	/* opacity: 0.5; */
+
 	border-bottom: 1px solid #F5F5F5;
 }
 
@@ -957,6 +959,7 @@ html[xmlns] .slider-wrap {display: block;}
 	background-color: #FFF;
 	padding: 0 40px;
 	border-radius: 2px;
+	
 }
 
 #header.transparent-header.floating-header.sticky-header .container {
@@ -1159,7 +1162,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { color: #f04741; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -2042,12 +2045,13 @@ body.top-search-open #top-account { opacity: 0; }
 	-webkit-backface-visibility: hidden;
 }
 
-#header.sticky-header #header-wrap {
+#header.sticky-header #header-wrap { /*head man*/
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #FFF;
+	opacity: 0.7;
+	background-color: rgb(255, 255, 255);
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -6635,12 +6639,12 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #444;
+	background-color: #f04741;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #1ABC9C; }
+.button.button-dark:hover { background-color: #f04741; }
 
 .button.button-mini {
 	padding: 0 14px;
@@ -6736,9 +6740,9 @@ body:not(.device-touch) .button {
 -----------------------------------------------------------------*/
 
 .button.button-border {
-	border: 2px solid #444;
+	border: 2px solid #f04741;
 	background-color: transparent;
-	color: #333;
+	color: #f04741;
 	line-height: 36px;
 	font-weight: 600;
 	text-shadow: none;
@@ -6768,20 +6772,20 @@ body:not(.device-touch) .button {
 .button.button-border.button-desc { line-height: 1; }
 
 .button.button-border:not(.button-fill):hover {
-	background-color: #444;
+	background-color: #f04741;
 	color: #FFF;
 	border-color: transparent !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-border.button-light {
-	border-color: #EEE;
-	color: #EEE;
+.button.button-border.button-light { /*need to change here start now button*/
+	border-color: #f04741;
+	color: #f04741;
 }
 
 .button.button-border.button-light:hover {
 	background-color: #EEE;
-	color: #333;
+	color: #f7f4f4;
 	text-shadow: none;
 }
 
@@ -7063,15 +7067,15 @@ body:not(.device-touch) .button.button-full strong {
 /* Buttons - Colors
 -----------------------------------------------------------------*/
 
-.button-red { background-color: #C02942; }
+.button-red { background-color: #f04741; }
 .button-3d.button-red:hover,
 .button-reveal.button-red:hover,
 .button-border.button-red:hover,
-.button-border.button-red.button-fill:before { background-color: #C02942 !important; }
+.button-border.button-red.button-fill:before { background-color: #f04741 !important; }
 
 .button-border.button-red {
-	color: #C02942;
-	border-color: #C02942;
+	color: #f04741;
+	border-color: #f04741;
 }
 
 .button-teal { background-color: #53777A; }

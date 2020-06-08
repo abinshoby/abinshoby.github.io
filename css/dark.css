@@ -1022,7 +1022,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 #footer.dark,
 .dark #footer {
-	background-color: #333;
+	background-color: #f04741;
 	color: #CCC;
 	border-top-color: rgba(0,0,0,0.2);
 }
