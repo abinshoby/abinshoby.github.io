@@ -963,7 +963,7 @@ html[xmlns] .slider-wrap {display: block;}
 }
 
 #header.transparent-header.floating-header.sticky-header .container {
-	width: 1170px;
+	width: max-content;
 	padding: 0 15px;
 }
 
@@ -13616,3 +13616,40 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+/* Menu listings */
+
+.list_item_head{
+	background-color:#38c5a6 ;
+	color:white;
+	font-size: medium;
+	display:block;
+	text-align: center;
+	position: relative;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+
+
+	
+}
+.menu_item_{
+	cursor: pointer;
+}
+.detailed_list{
+	border-radius: 10px;
+	border: 2px solid #38c5a6;
+	border-top:0px none ;
+	border-top-left-radius:0px ;
+	border-top-right-radius:0px ;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color:#d6e2df ;
+	font-weight: 1000;
+	
+	
+}
+.detailed_list button{
+	border-radius: 10px;
+	border:1px solid #38c5a6;
+}
