@@ -511,11 +511,13 @@
 
 				<!-- here begins the menu listing -->
 				<!-- Top content -->
-				<div class="top-content " id="menu__">
+				<div class="top-content menu_p " id="menu__">
 					<div class="container-fluid">
 						<div class="heading-block" style="padding-top: 40px;">
 						<h2>Featured Menu</h2>
 						</div>
+						
+						<a class="next_prev  col-xs-1" id='prev'><h1>&#8249;</h1></a>
 									<div class="col-xs-2 menu_item_" id="m1">
 										<div class="list_item_head">Lunch Buffet</div>
 										<img src="assets/img/backgrounds/1.jpg" class="img-responsive" alt="img1">
@@ -600,13 +602,33 @@
 											<button>More</button>
 										</div>
 									</div>
+
+									<div class="col-xs-2 menu_item_" id="m7" >
+										<span class="list_item_head">Meat Specialties</span>
+										<img src="assets/img/backgrounds/6.jpg" class="img-responsive" alt="img6">
+										<div class='detailed_list ' id="7">
+											<ul>
+												
+												<li>Beef Chilli</li>
+												<li>Beef Ularthiyathu</li>
+												<li>Goat Rogan Josh</li>
+												<li>Goat Stew</li>
+												<li>Goat Vindaloo</li>
+				
+											</ul>
+											<button>More</button>
+										</div>
+									</div>
 								
 									<!-- <div class="col-xs-2">
 										<span class="list_item_head">Meat Specialties</span>
 										<img src="assets/img/backgrounds/7.jpg" class="img-responsive" alt="img7">
 									</div> -->
 								
-					</div>
+									<a  class="next_prev col-xs-1" id='next'><h1>&#8250;</h1></a>
+						</div>
+						
+					
 				</div>
 		
 		 <!-- <div class="container">  -->
@@ -1043,6 +1065,36 @@
 				hideAllCaptionAtLilmit:0,
 				startWithSlide:0,
 			});
+			var n=7;
+			var beg=1;
+			var end=5;
+			for(var i=end+1;i<=n;i++){
+				tpj("#m"+i.toString()).hide();
+			};
+			
+			tpj("#next").click(function(){
+				if(end<n){
+					// alert(beg);
+					tpj("#m"+beg).hide();
+					end++;
+					tpj("#m"+end).show();
+					beg++;
+					
+
+				}
+
+			});
+			tpj("#prev").click(function(){
+				if(beg!=1){
+					tpj("#m"+end).hide();
+					beg--;
+					tpj("#m"+beg).show();
+					end--;
+
+				}
+
+			});
+
 			tpj(".detailed_list").hide();
 			tpj(".menu_item_").click(function(){
 				// tpj(".detailed_list").hide();

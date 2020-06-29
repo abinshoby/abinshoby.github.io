@@ -13617,7 +13617,31 @@ body:not(.no-transition) #wrapper,
 }
 
 /* Menu listings */
-
+.next_prev{
+	cursor:pointer;
+	max-width: 20px;
+	max-height:100px;
+	margin-top: 50px;
+	
+}
+.previous {
+	background-color: #f1f1f1;
+	color: black;
+	
+  }
+  
+  .next {
+	background-color: #f1f1f1;
+	color: black;
+	
+  }
+  
+  .round {
+	border-radius: 50%;
+  }
+.menu_p{
+	padding-left: 90px;
+}
 .list_item_head{
 	background-color:#38c5a6 ;
 	color:white;
@@ -13627,6 +13651,8 @@ body:not(.no-transition) #wrapper,
 	position: relative;
 	border-top-left-radius:10px;
 	border-top-right-radius:10px;
+	height:70px;
+	padding-top: 15px;
 
 
 	
