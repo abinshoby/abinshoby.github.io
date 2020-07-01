@@ -13745,3 +13745,49 @@ body:not(.no-transition) #wrapper,
 	background-color: #38c5a6;
 	color: white;
 }
+
+/* todays special */
+.today_sp{
+	padding-left: 90px;
+}
+
+/* GALLERY*/
+.gallery_{
+	padding-left: 90px;
+}
+.image_set{
+	padding-left: 60px;
+	padding-right:200px;
+	
+}
+
+/* map */
+.marker {
+	background-image: url('mapbox-icon.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+  }
+  .mapboxgl-popup {
+	max-width: 200px;
+  }
+  
+  .mapboxgl-popup-content {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+  }
+  .address span{
+	  display: block;
+	  
+  }
+
+  /* timing */
+  
+  /* table tr td i{
+	  width:30px;
+  } */
+ table tr td{
+	padding-right: 20px;
+ }

@@ -10,7 +10,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
-	
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
 	<!-- menu list styles	 -->
 	<link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -34,7 +34,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Home - Restuarant | Canvas</title>
+	<title>Home | Red Chillies</title>
 
 	<style>
 
@@ -307,7 +307,7 @@
 
 						<ul class="norightborder norightpadding norightmargin">
 							<li class="current"><a href="#"><div><i class="icon-home2"></i>Home</div></a>
-								<ul>
+								<!-- <ul>
 									<li><a href="index-corporate.html"><div>Home - Corporate</div></a>
 										<ul>
 											<li><a href="index-corporate.html"><div>Corporate - Layout 1</div></a></li>
@@ -373,16 +373,16 @@
 									<li><a href="index-parallax.html"><div>Home - Parallax</div></a></li>
 									<li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
 									<li><a href="index-boxed.html"><div>Home - Boxed Layout</div></a></li>
-								</ul>
+								</ul> -->
 							</li>
-							<li><a href="#"><div><i class="icon-fire" ></i>Today's Special</div></a></li>
+							<li><a href="#today_sp"><div><i class="icon-fire" ></i>Today's Special</div></a></li>
 							<li><a href="#menu__"><div><i class="icon-file-alt"></i>Menu</div></a></li>
-							<li><a href="#"><div><i class="icon-shopping-cart"></i>Order Now</div></a></li>
+							<li><a href="https://web2.purplecloud.ai/?profileId=1234&srcId=345678&csrf=sdgbs3536&aid=1024&authtoken=a49051ca-1c07-4706-8147-3618dd2887dd&sessionid=wef7u59ut9it&mid=135699100104&paymode=1001#"><div><i class="icon-shopping-cart"></i>Order Now</div></a></li>
 							<!-- <li><a href="#"><div><i class="icon-users2"></i>Staff</div></a></li> -->
-							<li><a href="#"><div><i class="icon-picture"></i>Gallery</div></a></li>
-							<li><a href="#"><div><i class="icon-star3"></i>Reviews</div></a></li>
+							<li><a href="#gallery_"><div><i class="icon-picture"></i>Gallery</div></a></li>
+							<li><a href="#review"><div><i class="icon-star3"></i>Reviews</div></a></li>
 							<!-- <li><a href="#"><div><i class="icon-pencil2"></i>Blog</div></a></li> -->
-							<li><a href="#"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
+							<li><a href="#contact"><div><i class="icon-map-marker2"></i>Contact</div></a></li>
 							<!-- <li><a href="#"><div><i class="icon-th"></i>Demos</div></a></li> -->
 						</ul>
 
@@ -508,6 +508,19 @@
 					<div class="clear"></div>
 
 				</div>
+				
+				<!-- todays special -->
+				<div class="top-content today_sp " id="today_sp">
+					<div class="container-fluid">
+						<div class="heading-block" style="padding-top: 40px;">
+							<h2>Today's Special</h2>
+						</div>
+					</div>
+				</div>
+
+
+
+
 
 				<!-- here begins the menu listing -->
 				<!-- Top content -->
@@ -679,6 +692,34 @@
 		</div>  -->
 				<!-- menu list ends here -->
 
+		<!-- gallery -->
+		<div class="top-content gallery_ " id="gallery_">
+			<div class="container-fluid">
+				<div class="heading-block" style="padding-top: 40px;">
+					<h2>Gallery</h2>
+				</div>
+					<!-- <div class="col_half nobottommargin col_last"> -->
+
+						<!-- <div class="fancy-title title-border">
+							<h4>Gallery</h4>
+						</div> -->
+						<div class="image_set">
+						<div class="masonry-thumbs col-4 clearfix" data-lightbox="gallery" style="width: 100.3%;">
+							<a href="images/restaurant/3.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/3.jpg" alt="Gallery Thumb 1" data-animate="zoomIn"></a>
+							<a href="images/restaurant/5.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/5.jpg" alt="Gallery Thumb 2" data-animate="zoomIn" data-delay="100"></a>
+							<a href="images/restaurant/6.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/6.jpg" alt="Gallery Thumb 3" data-animate="zoomIn" data-delay="200"></a>
+							<a href="images/restaurant/7.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/7.jpg" alt="Gallery Thumb 4" data-animate="zoomIn" data-delay="300"></a>
+							<a href="images/restaurant/8.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/8.jpg" alt="Gallery Thumb 5" data-animate="zoomIn" data-delay="400"></a>
+							<a href="images/restaurant/10.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/10.jpg" alt="Gallery Thumb 6" data-animate="zoomIn" data-delay="500"></a>
+							<a href="images/restaurant/11.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/11.jpg" alt="Gallery Thumb 7" data-animate="zoomIn" data-delay="600"></a>
+							<a href="images/restaurant/12.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/12.jpg" alt="Gallery Thumb 8" data-animate="zoomIn" data-delay="700"></a>
+						</div>
+					</div>
+
+					<!-- </div> -->
+				<!-- </div> -->
+			</div>
+		</div>
 
 
 
@@ -739,23 +780,70 @@
 
 				<div class="container clearfix">
 
-					<div class="col_one_fourth nobottommargin">
+					<div class="col_one_fourth nobottommargin" style="width:fit-content">
 
 						<div class="fancy-title title-border">
 							<h4>Opening Hours</h4>
 						</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur facilis cumque amet suscipit odio.</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur facilis cumque amet suscipit odio.</p> -->
 
 						<ul class="iconlist nobottommargin">
-							<li><i class="icon-time color"></i> <strong>Mondays-Fridays:</strong> 10AM to 7PM</li>
-							<li><i class="icon-time color"></i> <strong>Saturdays:</strong> 11AM to 3PM</li>
-							<li><i class="icon-time text-danger"></i> <strong>Sundays:</strong> Closed</li>
-						</ul>
+							<table>
+								<tr>
+									<td></td>
+									<td align="center"><strong>Day</strong></td>
+									<td align="center"><strong>Dinner Hours</strong></td>
+									<td align="center"><strong> Lunch Hours</strong></td>
+								</tr>
+								<tr>
+									<td><i class="icon-time color"></i></td> 
+									<td><strong>Wednesday:</strong></td>
+									 <td>11.30 AM - 2.00 PM</td> 
+									  <td>06.00 PM - 9.00 PM</td>
+								</tr>
+								<tr>
+									<td><i class="icon-time color"></i></td>
+									 <td><strong>Thursday:</strong></td> 
+									 <td>11.30 AM - 2.00 PM </td>
+									    <td>06.00 PM - 9.00 PM</td>
+								</tr>
+								<tr>
+									<td><i class="icon-time color"></i> </td>
+									<td><strong>Friday:</strong></td>
+									<td> 11.30 AM - 2.00 PM</td> 
+									 <td>06.00 PM - 9.30 PM</td>
+								</tr>
+								<tr>
+									<td><i class="icon-time color"></i> </td>
+									<td><strong>Saturday:</strong></td>
+									<td> 12.00 AM - 3.00 PM</td>  
+									 <td>06.00 PM - 9.30 PM</td>
+								</tr>
+								<tr>
+									<td><i class="icon-time color"></i> </td>
+									<td><strong>Sunday:</strong></td>
+									<td> 12.00 AM - 3.00 PM </td> 
+									<td>06.00 PM - 9.00 PM</td>
+								</tr>
+								<tr>
+									<td><i class="icon-time color"></i> </td>
+									<td><strong>Monday:</strong> </td>
+									<td>11.30 AM - 2.00 PM</td> 
+									<td>  06.00 PM - 9.00 PM</td>
+								</tr>
+								<tr>
+									<td><i class="icon-time text-danger"></i> </td>
+									<td><strong>Tuesday:</strong></td>
+									<td> Closed</td>
+									 <td>  Closed</td>
+								</tr>
+							</table>
+							
 
 					</div>
 
-					<div class="col_one_fourth nobottommargin">
+					<!-- <div class="col_one_fourth nobottommargin">
 
 						<div class="fancy-title title-border">
 							<h4>Our Buffet Menu</h4>
@@ -765,9 +853,9 @@
 
 						<a href="#" class="button button-rounded button-red noleftmargin"><i class="icon-file-alt"></i> Browse Menu</a>
 
-					</div>
+					</div> -->
 
-					<div class="col_half nobottommargin col_last">
+					<!-- <div class="col_half nobottommargin col_last">
 
 						<div class="fancy-title title-border">
 							<h4>Gallery</h4>
@@ -784,11 +872,24 @@
 							<a href="images/restaurant/12.jpg" data-lightbox="gallery-item"><img class="image_fade" src="images/restaurant/thumb/gallery/12.jpg" alt="Gallery Thumb 8" data-animate="zoomIn" data-delay="700"></a>
 						</div>
 
+					</div> -->
+
+					<div class="col_half nobottommargin col_last" style="left:150px;" id="contact">
+						<div class="fancy-title title-border">
+							<h4>We are right here!</h4>
+						</div>
+						<div id='map' style='width: 280px; height: 200px;position:absolute;display: inline-block;'></div>
+						<div class="address" style="position:absolute;display: inline-block;left:300px;">
+							<span>RED CHILLIES,</span>
+						<span>167 SOUTH MAIN STREET,</span>
+						<span>MILPITAS CA 95035,</span>
+						<span>TEL: +1 408 418 4778 </span>
+						</div>
 					</div>
 
 				</div>
 
-				<div class="section parallax noborder dark footer-stick topmargin-lg" style="background-image: url('images/restaurant/4.jpg'); padding: 80px 0;" data-stellar-background-ratio="0.3">
+				<div id="review" class="section parallax noborder dark footer-stick topmargin-lg" style="background-image: url('images/restaurant/4.jpg'); padding: 80px 0;" data-stellar-background-ratio="0.3">
 					<div class="container clearfix">
 						<div class="col_three_fifth nobottommargin">
 
@@ -800,19 +901,19 @@
 								<div class="flexslider">
 									<div class="slider-wrap">
 										<div class="slide">
-											<p class="lead">"Globalization fairness non-partisan visionary, institutions Aga Khan resolve. Results public-private partnerships, international development elevate scalable."</p>
-											<span><strong>John Doe</strong>, New York Magazine</span><br>
-											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i>
+											<p class="lead">"Fantastic food.. really authentic.. we travelled from NJ and we’re looking for a different cuisine. What better than super good mallu food.. had Aapam and parrots. Really really good. Tea a core chicken fry was awesome..  my friend has chilly beef and he loved it.. gravy was good too.. overall a very good experience !! No waiting time.. Thumbs up .."</p>
+											<span><strong>Raj S</strong>, Local Guide</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-full"></i>
 										</div>
 										<div class="slide">
-											<p class="lead">"Medicine; experience in the field climate change achieve voice public-private partnerships process our ambitions. Sanitation."</p>
-											<span><strong>Mary Jane</strong>, Chicago News</span><br>
-											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-half-full"></i> <i class="icon-star-empty"></i>
+											<p class="lead">"Amazing food and ambience, will like it if you like south Indian, Kerala dishes"</p>
+											<span><strong>Chris Dani</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-full"></i> <i class="icon-star-empty"></i>
 										</div>
 										<div class="slide">
-											<p class="lead">"Healthcare forward-thinking public service, social innovation making progress. Arab Spring social analysis, equality treatment, diversification."</p>
-											<span><strong>Luis Frank</strong>, France</span><br>
-											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-empty"></i>
+											<p class="lead">"Very elegant and convenient place. They serve big portions and for reasonable prices. I liked the food a lot and the waiters were very attentive and informative. I recommend this place."</p>
+											<span><strong>J Curtis</strong>, Local Guide</span><br>
+											<i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star3"> </i> <i class="icon-star3"></i> <i class="icon-star3"></i> <i class="icon-star-full"></i>
 										</div>
 									</div>
 								</div>
@@ -846,7 +947,7 @@
 					<div class="col_full">
 
 						<div class="heading-block center nobottommargin">
-							<h2>Need to make a Reservation? <strong>Call +165.4455.6254</strong></h2>
+							<h2>Need to make a Reservation? <strong>Call +1 408 418 4778</strong></h2>
 						</div>
 
 					</div>
@@ -862,7 +963,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+						Copyrights &copy; 2020 All Rights Reserved by Thuruthel Inc.<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 
@@ -928,6 +1029,7 @@
 	<!-- External JavaScripts
 	============================================= -->
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
 	<script type="text/javascript" src="js/plugins.js"></script>
@@ -1115,6 +1217,50 @@
 					tpj("#"+tpj(this).attr('id')[1].toString()).show(1000);
 				}
 			});
+
+
+			mapboxgl.accessToken = 'pk.eyJ1IjoiYWJpbnNob2J5IiwiYSI6ImNqeDV4dGxiZjA2ZHkzem5weGlmeGJtc2kifQ.tng9D8-CPXWLngWLIrexxg';
+			var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/mapbox/streets-v11',
+			center: [-121.906360, 37.428413],
+			zoom: 15.15,
+			attributionControl: false
+			});
+			map.addControl(new mapboxgl.AttributionControl(), 'top-left');
+			var geojson = {
+					type: 'FeatureCollection',
+					features: [{
+						type: 'Feature',
+						geometry: {
+						type: 'Point',
+						coordinates: [-121.906360, 37.428413]
+						},
+						properties: {
+						title: 'Red Chillies Restaurant',
+						description: '167 South Main Street, Milpitas CA, 95035'
+						}
+					}]
+					};
+					geojson.features.forEach(function(marker) {
+
+					// create a HTML element for each feature
+					var el = document.createElement('div');
+					el.className = 'marker';
+
+					// make a marker for each feature and add to the map
+					new mapboxgl.Marker(el)
+					.setLngLat(marker.geometry.coordinates)
+					.addTo(map);
+
+					new mapboxgl.Marker(el)
+					.setLngLat(marker.geometry.coordinates)
+					.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+						.setHTML('<h4>' + marker.properties.title + '</h4><p style="margin-top:-30px;">' + marker.properties.description + '</p>'))
+					.addTo(map);
+					});
+
+					
 			// tpj("#1").show();
 			// menu listing
 			// new WOW().init();
