@@ -538,12 +538,14 @@
 		width: auto;
 		margin: 0;
 		top: 0;
+		
 	}
 
 	.container-fullwidth #primary-menu ul li.mega-menu .mega-menu-content,
 	#header.full-header #primary-menu ul li.mega-menu .mega-menu-content {
 		width: auto !important;
 		margin: 0 !important;
+		
 	}
 
 	#primary-menu ul li.mega-menu .mega-menu-content.style-2 { padding: 0; }
@@ -1467,6 +1469,8 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.slider-parallax .slider-parallax-inner { position: relative;}
+	#slider{margin-top: -100px;}
 
 }
 
@@ -1474,11 +1478,12 @@
 
 	.container,
 	#header.full-header .container,
-	.container-fullwidth { width: 470px !important; }
+	.container-fullwidth { width: 100% !important; 
+	}
 
 	.container.vertical-middle { width: 100% !important; }
 
-	.full-screen:not(.force-full-screen) .container.vertical-middle { width: 470px !important; }
+	.full-screen:not(.force-full-screen) .container.vertical-middle { width: 100% !important; }
 
 	#top-search form input { padding-right: 60px; }
 
@@ -1490,10 +1495,24 @@
 	.ei-slider { height: 250px; }
 
 	#header.transparent-header.floating-header .container {
-		width: 470px;
-		padding: 0 15px;
+		width: 100%;
+		padding: 0 0px;
+		z-index: 199;
+		
+		
 	}
+	#header {
+		background: transparent;
+		border-bottom: none;
+		z-index: 199;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	
+	.slider-parallax .slider-parallax-inner { position: relative;margin-top: 100px;  }
 
+	
 	/* Portfolio - Items
 	-----------------------------------------------------------------*/
 

@@ -955,7 +955,9 @@ html[xmlns] .slider-wrap {display: block;}
 
 #header.semi-transparent { background-color: rgba(255,255,255,0.8); }
 
-#header.transparent-header.floating-header { margin-top: 60px; }
+#header.transparent-header.floating-header { 
+	margin-top: 100px; 
+}
 
 #header.transparent-header.floating-header .container {
 	width: 1220px;
@@ -1682,6 +1684,8 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #primary-menu.style-2.cent
 }
 
 
+
+
 /* ----------------------------------------------------------------
 	Top Search
 -----------------------------------------------------------------*/
@@ -2045,6 +2049,7 @@ body.top-search-open #top-account { opacity: 0; }
 #header-wrap {
 	position: relative;
 	z-index: 199;
+	/* max-width: 100%; */
 	-webkit-backface-visibility: hidden;
 }
 
